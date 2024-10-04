@@ -9,6 +9,7 @@ packages = [{include = "realtime_server"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 flask = "^3.0.3"
+gunicorn = "^23.0.0"
 
 
 [build-system]
